@@ -1,27 +1,39 @@
-# Essentials
+# Proyecto Angular: Starting Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
+Este proyecto es el punto de partida de la serie de prácticas del curso "Angular 2024". En esta sección, "01-starting-project", se configuran y explican las bases de un proyecto Angular desde cero, proporcionando una introducción a las herramientas y estructura necesarias para desarrollar aplicaciones en Angular.
 
-## Development server
+## Descripción
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+El proyecto incluye los elementos esenciales para empezar con Angular, incluyendo:
+- Configuración inicial de un proyecto Angular.
+- Explicación de la estructura de archivos y carpetas.
+- Configuración básica de componentes y módulos.
+- Introducción al Angular CLI para la generación de componentes y servicios.
 
-## Code scaffolding
+Este proyecto es ideal para entender la base de un entorno de desarrollo Angular y preparar el terreno para prácticas y proyectos más avanzados.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Estructura del Proyecto
 
-## Build
+- **`src/app`**: Carpeta donde se encuentran los componentes y módulos principales.
+- **`src/index.html`**: Archivo HTML que actúa como base de la aplicación.
+- **`src/main.ts`**: Punto de entrada de la aplicación Angular.
+- **`src/styles.css`**: Archivo de estilos globales aplicados a toda la aplicación.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Requisitos
 
-## Running unit tests
+- **Node.js** y **Angular CLI** instalados.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Instalación
 
-## Running end-to-end tests
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/YadhirIsvan/starting-project.git
+   cd starting-project
+   npm install
+   ng serve
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+![Captura desde 2024-11-09 19-09-38](https://github.com/user-attachments/assets/53a86e60-a9eb-4163-89d6-3a72b458d3e0)
+![Captura desde 2024-11-09 19-11-48](https://github.com/user-attachments/assets/4e4c6a01-3fd7-40e7-b73d-2dd159239e45)
+![Captura desde 2024-11-09 19-12-14](https://github.com/user-attachments/assets/ef853aa5-7e2f-4609-b2ee-74baf622e354)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
